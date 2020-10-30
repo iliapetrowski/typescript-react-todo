@@ -1,11 +1,12 @@
 import React from 'react';
 import {Navbar} from "./components/NavBar";
+import {ToDoForm} from "./components/ToDo";
 
 const App: React.FunctionComponent = ()=> {
     return<>
     <Navbar/>
-    <div className="container">
-        <h1>Hello</h1>
+    <div className="container mt2">
+        <ToDoForm/>
 
     </div>
     </>
